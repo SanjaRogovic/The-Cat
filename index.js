@@ -11,18 +11,22 @@ class Cat {
 
     // Create methods that increase/decrease these properties
 
-    play(happinessValue, lonelinessValue){
+    play(happinessValue){
         this.happiness += happinessValue;
-        this.loneliness += lonelinessValue;
+      
     }
 
-    eat(hungerValue, happinessValue){
-        this.hunger -= hungerValue;
-        this.happiness -= happinessValue;
+    pet(lonelinessValue){
+        this.loneliness += lonelinessValue
+    }
+
+    eat(hungerValue){
+        this.hunger += hungerValue;
+
     }
 
     sleep(tirednessValue){
-        this.tiredness -= tirednessValue;
+        this.tiredness += tirednessValue;
     }
 
 
@@ -60,4 +64,5 @@ const fluffy = new Cat();
 fluffy.play(9)
 fluffy.eat(6)
 fluffy.sleep(2)
+fluffy.pet(4)
 fluffy.printStatus()
