@@ -1,0 +1,9 @@
+body{background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body h1 {
+    display: block;
+    text-align: center;
+}
