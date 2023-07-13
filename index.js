@@ -13,16 +13,16 @@ class Cat {
 
     // Create methods that increase/decrease these properties
 
-    play(happinessValue){
-        this.happiness += happinessValue;
+    // play(happinessValue){
+    //     this.happiness += happinessValue;
       
-    }
+    // }
 
-    pet(value){
+    // pet(value){
         // this.loneliness += lonelinessValue
 
-        return this.loneliness = Math.max(0, this.loneliness -= value)
-    }
+    //     return this.loneliness = Math.max(0, this.loneliness -= value)
+    // }
 
     feed(foodAmount){
         // if (this.hunger > foodAmount){
@@ -76,10 +76,11 @@ class Cat {
 }
 
 const myCat = new Cat('Fluffy');
-console.log(myCat)
 
-myCat.play(9)
+
+// myCat.play(9)
 myCat.feed(2)
-myCat.pet(4)
+// myCat.pet(4)
 myCat.sleep(5)
 console.log(myCat.printStatus())
+console.log(myCat)
